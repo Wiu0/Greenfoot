@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ImageWorld
+comment0.text=\n\ Write\ a\ description\ of\ class\ ImageWorld\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=dir
+comment1.target=ImageWorld(java.io.File)
+comment2.params=
+comment2.target=TypeImage\ getType()
+numComments=3

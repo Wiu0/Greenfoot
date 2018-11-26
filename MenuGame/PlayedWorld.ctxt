@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PlayedWorld
+comment0.text=\n\ Simple\ example\ of\ a\ world\ that\ will\ be\ called\ as\ ItemMenu\n\ \n\ @author\ wiu\n\ @version\ 1.0\ Date\:\ 17-AUG-2018\n
+comment1.params=
+comment1.target=PlayedWorld()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ PlayedWorld.\n\ \n
+numComments=2

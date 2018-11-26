@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ItemMenu
+comment0.text=\n\ Item\ Menu\ is\ a\ class\ that\ save\ a\ World\ class\ to\ be\ called.\ This\ example\ call\ the\ World\n\ when\ the\ player\ use\ the\ mouse\ to\ click\ on\ the\ picked\ option.\n\ @author\ wiu\n\ @version\ 1.0\ -\ 17\ AUG\ 2018\n
+comment1.params=worldName\ worldWillCall
+comment1.target=ItemMenu(java.lang.String,\ java.lang.Class)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ ItemMenu\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+numComments=3
