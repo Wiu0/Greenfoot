@@ -20,6 +20,10 @@ public class Sapo extends Actor
         }else if(Greenfoot.isKeyDown("down")){
             turn(5);
         }
-        removeTouching(Mosca.class);
+        pegarMosca();
     }    
+
+    private void pegarMosca(){
+        removeTouching(Mosca.class);removeTouching(Mosca.class);
+    }
 }
