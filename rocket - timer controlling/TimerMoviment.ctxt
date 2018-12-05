@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TimerMoviment
+comment1.params=
+comment1.target=TimerMoviment()
+comment2.params=action\ time
+comment2.target=boolean\ execute(ActionTimer,\ int)
+numComments=3
