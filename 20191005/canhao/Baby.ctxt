@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Baby
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Baby\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ verificarSeApertouEsquerdaEMover()
+comment2.params=
+comment2.target=void\ verificarSeApertouDireitaEMover()
+comment3.params=
+comment3.target=void\ verificarSeApertouEspacoEMover()
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Act\ -\ do\ whatever\ the\ Baby\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=5
