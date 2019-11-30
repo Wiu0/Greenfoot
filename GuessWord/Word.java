@@ -16,7 +16,7 @@ public class Word extends Actor
     } 
     
     private void showText(){
-        GreenfootImage g = new GreenfootImage("a", 24, Color.BLACK, Color.WHITE);
+        GreenfootImage g = new GreenfootImage(text, 24, Color.BLACK, Color.WHITE);
         setImage(g);
     }
     

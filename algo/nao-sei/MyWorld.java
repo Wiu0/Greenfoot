@@ -1,4 +1,3 @@
-
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
@@ -16,13 +15,14 @@ public class MyWorld extends World
      */
     public MyWorld()
     {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
-        prepare();
+        // Create a new world with 1000x600 cells with a cell size of 1x1 pixels.
+        super(1000, 600, 1); 
+        showText("ALIEN GAME", 500, 30);
+        Alien a = new Alien();
+        addObject(a, 500, 300);
+        
+        String resposta = Greenfoot.ask("Qual seu nick?");
+        showText("Jogador " + resposta, 100, 30);
     }
     
-    private void prepare(){
-        addObject(new Word("Abelha"), getWidth()/2, getHeight()/2);
-    }
 }
-
