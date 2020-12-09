@@ -5,5 +5,5 @@ comment1.params=
 comment1.target=MyWorld()
 comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n\ \n
 comment2.params=
-comment2.target=void\ criarFire()
+comment2.target=void\ prepare()
 numComments=3
