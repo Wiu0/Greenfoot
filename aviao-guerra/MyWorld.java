@@ -19,19 +19,20 @@ public class MyWorld extends World
         super(1000, 700, 1);
 
         //Forma simples
-        addObject(new Airplane(), 20, 350);
-        addObject(new Airplane(), 20, 550);
-        addObject(new Bird(), 950, 350);
+//        addObject(new Airplane(), 20, 350);
+//        addObject(new Airplane(), 20, 550);
+ //       addObject(new Bird(), 950, 350);
               
         //Forma simples, mas um pouco complexa LOL
-        Airplane airplane = new Airplane();
-        addObject(airplane, 14, 80);
+   //     Airplane airplane = new Airplane();
+  //      addObject(airplane, 14, 80);
    
-        Airplane airplane2 = new Airplane();
-        addObject(airplane2, 200, 80);
+    //    Airplane airplane2 = new Airplane();
+    //    addObject(airplane2, 200, 80);
         
+        addObject(new Moca(), 500, 350);
         //Forma mais completa
-        prepare(); 
+    //    prepare(); 
     }
     
     private void prepare() {
