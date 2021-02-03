@@ -17,9 +17,9 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-        //addObject(new IdleLevelOne(), 25, 50);
-        //addObject(new WalkerLevelOne(), 25, 150);
-        //addObject(new IdleWalkLevelOne(), 25, 250);
-        //addObject(new CompleteLevelOne(), 25, 350);
+        addObject(new IdleLevelOne(), 25, 50);
+        addObject(new WalkerLevelOne(), 25, 150);
+        addObject(new IdleWalkLevelOne(), 25, 250);
+        addObject(new CompleteLevelOne(), 25, 350);
     }
 } 
