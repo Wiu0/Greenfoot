@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=MyWorldMoveWithActor
+comment0.text=\n\ Write\ a\ description\ of\ class\ MyWorldMoveWithActor\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=MyWorldMoveWithActor()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorldMoveWithActor.\n\ \n
+comment2.params=
+comment2.target=void\ move()
+comment3.params=
+comment3.target=void\ drawBackgroundImage()
+numComments=4
