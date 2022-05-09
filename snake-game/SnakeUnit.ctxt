@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SnakeUnit
+comment0.text=\n\ Write\ a\ description\ of\ class\ SnakeUnit\ here.\n\ \n\ @author\ wiu\n\ @version\ 202205\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ createNewUnit()
+comment3.params=
+comment3.target=void\ addNewUnit()
+comment4.params=
+comment4.target=boolean\ isRotationPoint()
+comment5.params=x\ y\ r
+comment5.target=void\ setRotationPoint(int,\ int,\ int)
+comment6.params=x\ y\ r
+comment6.target=void\ moveUnit(int,\ int,\ int)
+numComments=7

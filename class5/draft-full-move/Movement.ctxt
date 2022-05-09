@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Movement
+comment0.text=\n\ Write\ a\ description\ of\ class\ Movement\ here.\n\ \n\ @author\ wiu\n\ @version\ 2022-03\n
+comment1.params=images
+comment1.target=void\ setImages(java.util.List)
+numComments=2

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Key
+comment0.text=\n\ Write\ a\ description\ of\ class\ Key\ here.\n\ \n\ @author\ wiu\n\ @version\ 202205\n
+comment1.params=
+comment1.target=Key()
+comment2.params=key\ antiKey\ rotation
+comment2.target=Key(java.lang.String,\ java.lang.String,\ int)
+comment3.params=
+comment3.target=java.lang.String\ getAntiKey()
+comment4.params=antiKey
+comment4.target=void\ setAntiKey(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getKey()
+comment6.params=key
+comment6.target=void\ setKey(java.lang.String)
+comment7.params=
+comment7.target=int\ getRotation()
+comment8.params=rotatio
+comment8.target=void\ setAntiKey(int)
+comment9.params=key\ antiKey\ rotation
+comment9.target=void\ setKeys(java.lang.String,\ java.lang.String,\ int)
+numComments=10
