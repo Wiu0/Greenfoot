@@ -16,7 +16,9 @@ public class SnakeHead extends Actor
     private int maxTimeOnBorder;
     private SnakeUnit unit;
     private Map<String, Key> keys;
-
+    
+    private int score;
+    
     static {
         MAX_TIME_ON_BORDER = 500;
     }
@@ -29,6 +31,7 @@ public class SnakeHead extends Actor
         keys.put("d", new Key("d", "a", 0));
         keys.put("a", new Key("a", "d", 180));
         maxTimeOnBorder = MAX_TIME_ON_BORDER;
+        score = 0;
     }
 
     public void act()
@@ -57,9 +60,11 @@ public class SnakeHead extends Actor
     }
 
     private void eatLife() {
+        getWorld().showText("Score: " + score, getWorld().getWidth() - 100, getWorld().getHeight() - 50);
         if(isTouching(SnakeLife.class)) {
             MyWorld mw = (MyWorld)getWorld();
             mw.removeLife();
+            score++;
             createNewUnit();
             //SPEED += 2;
         }
