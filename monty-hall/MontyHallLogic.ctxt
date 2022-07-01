@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=MontyHallLogic
+comment0.text=\n\ Write\ a\ description\ of\ class\ MontyHallLogic\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=MontyHallLogic()
+comment2.params=
+comment2.target=void\ generateEurekaNumber()
+comment3.params=doorPicked
+comment3.target=byte\ getEmptyDoor(byte)
+comment4.params=
+comment4.target=byte\ getFreedomDoor()
+comment5.params=
+comment5.target=byte\ getNumber()
+numComments=6

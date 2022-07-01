@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Door
+comment0.text=\n\ Write\ a\ description\ of\ class\ Door\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=width\ height\ number
+comment1.target=Door(int,\ int,\ byte)
+comment2.params=name\ width\ height
+comment2.target=void\ setTheImage(java.lang.String,\ int,\ int)
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ Act\ -\ do\ whatever\ the\ Door\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment4.params=
+comment4.target=void\ validEvent()
+comment5.params=option
+comment5.target=void\ showOption(byte)
+numComments=6
