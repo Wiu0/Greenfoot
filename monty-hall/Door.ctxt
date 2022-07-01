@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=Door
 comment0.text=\n\ Write\ a\ description\ of\ class\ Door\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
-comment1.params=width\ height\ number
-comment1.target=Door(int,\ int,\ byte)
+comment1.params=width\ height\ d
+comment1.target=Door(int,\ int,\ DoorDto)
 comment2.params=name\ width\ height
 comment2.target=void\ setTheImage(java.lang.String,\ int,\ int)
 comment3.params=
@@ -11,5 +11,5 @@ comment3.text=\n\ Act\ -\ do\ whatever\ the\ Door\ wants\ to\ do.\ This\ method\
 comment4.params=
 comment4.target=void\ validEvent()
 comment5.params=option
-comment5.target=void\ showOption(byte)
+comment5.target=void\ showOption(DoorDto)
 numComments=6

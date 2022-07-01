@@ -2,13 +2,11 @@
 comment0.target=MontyHallLogic
 comment0.text=\n\ Write\ a\ description\ of\ class\ MontyHallLogic\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=
-comment1.target=MontyHallLogic()
+comment1.target=DoorDto\ getDoor()
 comment2.params=
 comment2.target=void\ generateEurekaNumber()
 comment3.params=doorPicked
-comment3.target=byte\ getEmptyDoor(byte)
+comment3.target=DoorDto\ getEmptyDoor(byte)
 comment4.params=
-comment4.target=byte\ getFreedomDoor()
-comment5.params=
-comment5.target=byte\ getNumber()
-numComments=6
+comment4.target=DoorDto\ getFreedomDoor()
+numComments=5

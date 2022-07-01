@@ -7,4 +7,6 @@ comment2.params=name\ width\ height
 comment2.target=void\ setTheImage(java.lang.String,\ int,\ int)
 comment3.params=
 comment3.target=void\ act()
-numComments=4
+comment4.params=position
+comment4.target=void\ setJumpPositions(byte)
+numComments=5

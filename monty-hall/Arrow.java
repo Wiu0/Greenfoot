@@ -9,6 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Arrow extends Actor
 {
     private int pos[] = new int[]{72, 253, 434};
+    private byte jumpPosition = -1;
     private int position = 0;
     
     public Arrow() {
@@ -45,5 +46,9 @@ public class Arrow extends Actor
             setLocation(pos[++position], getY());
             delay = 25;
         }
+    }
+    
+    public void setJumpPositions(byte position) {
+         jumpPosition = position;
     }
 }

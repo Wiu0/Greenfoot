@@ -8,11 +8,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Door extends Actor
 {
-    public byte myself = 0;
+    private DoorDto doorDto;
 
-    public Door(int width, int height, byte number) {
+    public Door(int width, int height, DoorDto d) {
         setTheImage("door-closed.jpg", width, height);
-        myself = number;        
+        doorDto = d;        
     }
 
     private void setTheImage(String name, int width, int height) {
@@ -27,23 +27,24 @@ public class Door extends Actor
      */
     public void act()
     {
-        getWorld().showText("corret " + ((MyWorld)getWorld()).getMontyHall().getFreedomDoor(), getWorld().getWidth()/2, 30);
-        getWorld().showText("Door " + myself, getX(), getY());
+        getWorld().showText("corret " + ((MyWorld)getWorld()).getMontyHall().getFreedomDoor().getId(), getWorld().getWidth()/2, 30);
+        getWorld().showText("Door " + doorDto.getId(), getX(), getY());
         validEvent();
     }
 
     private void validEvent() {
-        
-        if(Greenfoot.isKeyDown("enter") && getOneIntersectingObject(Arrow.class) != null) {
+        Actor a = getOneIntersectingObject(Arrow.class);
+        if(Greenfoot.isKeyDown("enter") &&  a != null) {
+            //((Arrow)a).setJumpPositions(myself);
             MontyHallLogic mh = ((MyWorld)getWorld()).getMontyHall();
-            showOption(mh.getEmptyDoor(myself));
+            showOption(mh.getEmptyDoor(doorDto.getId()));
 
         }
     }
 
-    private void showOption(byte option) {
-        getWorld().showText("porta " + option + " está vazia. Deseja trocar?", 300, 30);
-        Actor a = ((MyWorld)getWorld()).getDoors(option);
+    private void showOption(DoorDto option) {
+        getWorld().showText("porta " + option.getId() + " está vazia. Deseja trocar?", 300, 30);
+        Actor a = ((MyWorld)getWorld()).getDoors(option.getId());
         ((Door)a).setTheImage("door-empty.jpg", 181, 187);
         
         //byte p = myself;
