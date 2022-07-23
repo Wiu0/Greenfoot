@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ItemMenu
+comment0.text=\n\ Write\ a\ description\ of\ class\ ItemMenu\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=text
+comment1.target=ItemMenu(java.lang.String)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ setUnselectText()
+comment4.params=
+comment4.target=void\ setSelectText()
+comment5.params=colorF\ colorB
+comment5.target=void\ setSelectText(greenfoot.Color,\ greenfoot.Color)
+comment6.params=
+comment6.target=void\ setSelect()
+numComments=7
