@@ -19,12 +19,12 @@ public class CarroVerde extends Actor
         if(isTouching(Car.class)) {
             Greenfoot.stop();
             getWorld().showText("GAME OVER", getWorld().getWidth()/2, getWorld().getHeight()/2);
-            MyWorld.gs.stop();
+            //MyWorld.gs.stop();
             new GreenfootSound("hit.mp3").play();
         }
            if(isAtEdge()) {
             getWorld().removeObject(this);
-            MyWorld.PONTOS++;
+            RaceTrack.PONTOS++;
         }
     }
 }

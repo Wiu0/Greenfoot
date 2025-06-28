@@ -16,12 +16,19 @@ public class MenuStart extends World
     public MenuStart()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1742, 980, 1); 
+        super(200, 600, 1); 
+        prepare();
     }
-    
+
     public void act() {
-       if(Greenfoot.isKeyDown("space")) {
-           Greenfoot.setWorld(new RaceTrack());
-       }
+    }
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+        PlayButton playButton = new PlayButton();
+        addObject(playButton,103,164);
     }
 }
