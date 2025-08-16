@@ -30,6 +30,6 @@ public class Fire extends Actor
             getWorld().addObject(f, posicaoX, 10);
             getWorld().removeObject(this);
         }
-        
-    }    
+    }   
+    
 }

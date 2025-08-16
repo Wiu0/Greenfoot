@@ -6,9 +6,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class MyWorld extends World
+public class MyWorld extends GenericWorld
 {
-
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -16,21 +15,10 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
-        prepare();
-    }
-    
-    /**
-     * Prepare the world for the start of the program.
-     * That is: create the initial objects and add them to the world.
-     */
-    private void prepare()
-    {
-        Militar militar = new Militar();
-        addObject(militar,36,201);
-        Power power = new Power();
-        addObject(power,85,384);
-        Terrorista terrorista = new Terrorista();
-        addObject(terrorista,513,183);
+        super(1000, 600, 1); 
+        Exemplo exemplo = new Exemplo();
+        addObject(exemplo, 100, 300);
+        setWorldLeft(new Fase2(this, exemplo));
+        
     }
 }

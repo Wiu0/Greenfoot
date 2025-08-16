@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=MassiveActor
+comment0.text=\n\ Write\ a\ description\ of\ class\ MassiveActor\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ MassiveActor\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=
+comment2.target=void\ applyForce()
+comment2.text=\n\ S\ \u2014\ dist\u00E2ncia\ total\ percorrida\ ap\u00F3s\ o\ lan\u00E7amento,\ dada\ em\ metros;\n\ \ \ \ So\ \u2014\ dist\u00E2ncia\ inicial\ j\u00E1\ percorrida,\ dada\ em\ metros;\n\ \ \ \ Vo\ \u2014\ velocidade\ inicial\ do\ objeto,\ dada\ em\ m/s;\n\ \ \ \ t\ \u2014\ tempo\ de\ movimento\ em\ segundos;\n\ \ \ \ a\ \u2014\ valor\ da\ acelera\u00E7\u00E3o\ em\ m/s\u00B2.\n
+comment3.params=
+comment3.target=void\ downForce()
+comment4.params=
+comment4.target=void\ normalForce()
+comment5.params=normal
+comment5.target=void\ setNormal(int)
+numComments=6

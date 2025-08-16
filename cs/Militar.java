@@ -28,7 +28,7 @@ public class Militar extends Actor
         if(mouse != null) {
             atirar();
             recarregar();
-            getWorld().showText("Posicao X do mouse é: " + mouse.getX() + " Posicao Y do mouse é: " + mouse.getY(), 300, 200);
+            //getWorld().showText("Posicao X do mouse é: " + mouse.getX() + " Posicao Y do mouse é: " + mouse.getY(), 300, 200);
             tocarNoAtorPower();
         }
         if(isTouching(Power.class)) {
@@ -39,7 +39,7 @@ public class Militar extends Actor
 
     public void atirar() {
         MouseInfo mouse = Greenfoot.getMouseInfo();
-        getWorld().showText("Botao clicado foi: " + mouse.getButton(), 300, 100);
+        //getWorld().showText("Botao clicado foi: " + mouse.getButton(), 300, 100);
         if(mouse.getButton() == 1) {
             getWorld().addObject(new Bala(), getX() + 25, getY());
         }  

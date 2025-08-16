@@ -33,4 +33,10 @@ public class MyWorld extends World
         f.setRotation(180);
         addObject(f, x, 10);
     }
+    
+    public void act() {
+        if(Greenfoot.getRandomNumber(100) < 2) {
+            addObject(new Coin(), Greenfoot.getRandomNumber(1000), 0);
+        }
+    }
 }

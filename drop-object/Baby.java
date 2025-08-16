@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Baby extends Actor
 {
-
+    static int score = 0;
     public void verificarSeApertouEsquerdaEMover(){
         boolean usuarioApertouEsquerda = Greenfoot.isKeyDown("left");
         if(usuarioApertouEsquerda == true){
@@ -42,6 +42,11 @@ public class Baby extends Actor
      */ 
     public void act() 
     {
+        getWorld().showText("Score: " + score, 900, 100);
+        if(isTouching(Coin.class)) {
+            score++;
+            removeTouching(Coin.class);
+        }
         verificarSeApertouEsquerdaEMover();
         verificarSeApertouDireitaEMover();
         verificarSeApertouEspacoEMover();

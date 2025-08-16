@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=GenericWorld
+comment0.text=\n\ Write\ a\ description\ of\ class\ GenericWorld\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=w\ h\ p
+comment1.target=GenericWorld(int,\ int,\ int)
+comment2.params=gWorld
+comment2.target=void\ setWorldLeft(GenericWorld)
+comment3.params=gWorld
+comment3.target=void\ setWorldRight(GenericWorld)
+comment4.params=
+comment4.target=void\ switchWorldLeft()
+comment5.params=
+comment5.target=void\ switchWorldRight()
+numComments=6

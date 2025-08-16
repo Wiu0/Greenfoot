@@ -8,14 +8,23 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Bola extends Actor
 {
+    int boost = 1000; 
     /**
      * Act - do whatever the Bola wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act()
     {
+        double boostPerc = 100;
+        if(boost < 1000) {
+            boostPerc = boost/10;
+        }
+        getWorld().showText("Boost: " +  (int)boostPerc + "%", 60, 20);
         move();
-        removeTouching(Poder.class);
+        if(isTouching(Poder.class)) {
+            boost+= 500;
+            removeTouching(Poder.class);
+        }
     }
 
     public void move() {
@@ -36,6 +45,7 @@ public class Bola extends Actor
             move(3);
         }
         if(Greenfoot.isKeyDown("space")) {
+            boost--;
             move(6);
         }
     }
